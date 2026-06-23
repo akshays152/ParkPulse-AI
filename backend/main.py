@@ -1,6 +1,6 @@
 ﻿from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from backend.routes import stats, violations, reports, analyze
+from routes import stats, violations, reports, analyze
 
 app = FastAPI(title="ParkPulse AI Framework")
 app.add_middleware(CORSMiddleware, allow_origins=["http://localhost:3000"], allow_credentials=True, allow_methods=["*"], allow_headers=["*"])
