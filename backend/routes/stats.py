@@ -1,6 +1,6 @@
 ﻿from fastapi import APIRouter
 import json, os, random
-from schemas import Stats
+from models.schemas import Stats
 
 router = APIRouter()
 DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "output", "violations.json")

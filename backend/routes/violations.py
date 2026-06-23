@@ -1,7 +1,7 @@
 ﻿from fastapi import APIRouter
 import json, os
 from typing import List
-from schemas import Violation
+from models.schemas import Violation
 
 router = APIRouter()
 DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "output", "violations.json")
