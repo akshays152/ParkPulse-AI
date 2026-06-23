@@ -4,3 +4,6 @@ python-multipart
 reportlab
 opencv-python-headless
 shapely
+numpy
+pandas
+ultralytics
