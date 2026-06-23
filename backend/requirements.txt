@@ -2,3 +2,4 @@
 uvicorn[standard]
 python-multipart
 reportlab
+opencv-python-headless
