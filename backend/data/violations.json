@@ -1,0 +1,5 @@
+﻿[
+  {"vehicle": "UP53AB1234", "duration": 14, "impact": 90, "lane_importance": 3, "timestamp": "13:40 AM"},
+  {"vehicle": "DL1CA9876", "duration": 32, "impact": 75, "lane_importance": 2, "timestamp": "13:35 AM"},
+  {"vehicle": "MH12DE4567", "duration": 8, "impact": 60, "lane_importance": 1, "timestamp": "13:42 AM"}
+]
