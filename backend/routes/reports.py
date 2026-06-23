@@ -1,7 +1,7 @@
 ﻿from fastapi import APIRouter
 from fastapi.responses import StreamingResponse
 import json, os, io
-from backend.models.schemas import DynamicRecommendation
+from models.schemas import DynamicRecommendation
 from reportlab.lib.pagesizes import letter
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
