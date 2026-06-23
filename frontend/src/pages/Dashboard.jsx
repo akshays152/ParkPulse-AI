@@ -18,9 +18,9 @@ const [processing, setProcessing] = useState(false);
   const pollSystemGridData = async () => {
     try {
       const [resStats, resViolations, resRec] = await Promise.all([
-        axios.get("http://localhost:8000/stats"),
-        axios.get("http://localhost:8000/violations"),
-        axios.get("http://localhost:8000/recommendation")
+        axios.get("https://parkpulse-ai-tnpa.onrender.com/"),
+        axios.get("https://parkpulse-ai-tnpa.onrender.com/"),
+        axios.get("https://parkpulse-ai-tnpa.onrender.com/")
       ]);
       setStats(resStats.data); setViolations(resViolations.data); setRecommendation(resRec.data);
     } catch (err) { console.error("Pipeline failure:", err); } finally { setLoading(false); }
