@@ -1,0 +1,26 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Generated files
+uploads/
+outputs/
+temp2/
+
+# Videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
